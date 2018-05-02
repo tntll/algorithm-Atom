@@ -18,4 +18,4 @@ class Solution:
                 nums[minnum] = nums[i]
         return minnum+1
 # 一般需要重新排列一个列表的时候都需要一个i遍历每个元素，另一个j来对当前需要判断的元素
-# 进行标记，从而进行判断与位置变换。eeee
+# 进行标记，从而进行判断与位置变换。eeeeaaa
