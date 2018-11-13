@@ -3,11 +3,15 @@
 '''
 
 # -*- coding:utf-8 -*-
+
+
 class TreeNode:
     def __init__(self, x):
         self.val = x
         self.left = None
         self.right = None
+
+
 class Solution:
     def __init__(self):
         self.flag = True
@@ -26,11 +30,14 @@ class Solution:
             self.flag = False
 
         return left if left > right else right
+
+
 class Solution2:
     def getDepth(self, pRoot):
         if pRoot == None:
             return 0
         return max(self.getDepth(pRoot.left), self.getDepth(pRoot.right)) + 1
+
     def IsBalanced_Solution(self, pRoot):
         if pRoot == None:
             return True

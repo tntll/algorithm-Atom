@@ -23,5 +23,5 @@ class Solution:
         return ones
 
 s = Solution()
-print(s.NumberOf1Between1AndN_Solution(526))
-print(s.NumberOf1Between1AndN2(526))
+print(s.NumberOf1Between1AndN_Solution(10))
+print(s.NumberOf1Between1AndN2(10))
